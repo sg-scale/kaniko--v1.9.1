@@ -1,6 +1,6 @@
 module github.com/GoogleContainerTools/kaniko
 
-go 1.17
+go 1.26.0
 
 // These match the docker/docker's dependencies configured in:
 // https://github.com/moby/moby/blob/v20.10.12/vendor.conf
@@ -37,7 +37,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/net v0.0.0-20220325170049-de3da57026de
 	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sync v0.25.0
 )
 
 require github.com/containerd/containerd v1.6.2
