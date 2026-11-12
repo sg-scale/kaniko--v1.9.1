@@ -29,7 +29,7 @@ require (
 	github.com/karrick/godirwalk v1.16.1
 	github.com/minio/highwayhash v1.0.2
 	github.com/moby/buildkit v0.9.3
-	github.com/otiai10/copy v1.7.0
+	github.com/otiai10/copy v1.14.1
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/afero v1.8.2
@@ -37,10 +37,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/net v0.0.0-20220325170049-de3da57026de
 	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sync v0.8.0
 )
 
 require github.com/containerd/containerd v1.6.2
+
+require github.com/otiai10/mint v1.6.3 // indirect
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
@@ -139,7 +141,7 @@ require (
 	github.com/xanzy/ssh-agent v0.3.1 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce // indirect
-	golang.org/x/sys v0.0.0-20220328115105-d36c6a25d886
+	golang.org/x/sys v0.24.0
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
